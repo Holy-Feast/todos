@@ -1,0 +1,27 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "ToDo app as learning project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holy-Feast/todos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Holy-Feast/todos/issues"
+  },
+  "homepage": "https://github.com/Holy-Feast/todos#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
